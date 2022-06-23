@@ -29,15 +29,22 @@ color: #64388d;
     font-weight: 600;
   }
 
+  p{
+    color: #e1b5d4;
+  }
+
   #button-pause {
     background: linear-gradient(136.51deg, #c89ce4 0%, #e1b5d4 94.14%);
     border-radius: 8px;
+    height: 30px;
+    width: 120px;
   }
+
   div {
     width:445px;
     margin: auto;
   }
-  
+
   .six {
     width: 445px;
     margin: auto;
@@ -96,7 +103,6 @@ color: #64388d;
     transform: translateX(-5000%);
   }
   
-  /* Cards */
   .correct[data-item="1"],
   .flipped[data-item="1"] {
     background: url("../images/1.png") left center no-repeat;
@@ -206,4 +212,3 @@ color: #64388d;
   }
   
  
-  

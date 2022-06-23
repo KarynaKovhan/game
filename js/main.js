@@ -14,8 +14,8 @@ var images = [
     '1', '2', '3', '4', '5', '6', '7', '8',  '9', '10', '11', '12', '13', '14', '15', '16', '17', '18'
 ];
 
-var clone = images.slice(0); // duplicate array
-var cards = images.concat(clone); // merge to arrays
+var clone = images.slice(0); 
+var cards = images.concat(clone);
 
 // Shufffel function
 function shuffle(o){
