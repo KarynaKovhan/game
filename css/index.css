@@ -1,0 +1,209 @@
+html {
+  font-family: 'Akshar', sans-serif;
+} 
+
+body {
+    background: linear-gradient(136.51deg, #9bdee6 0%, #e5bfe9 94.14%);
+    font-size: 1.5em;
+    text-align: center;
+    color: #000000;
+  }
+  
+  h1 {
+font-style: normal;
+font-weight: 200;
+font-size: 36px;
+line-height: 20px;
+color: #64388d;
+  }
+  
+  h2 {
+    font-weight: 200;
+    font-size: 26px;
+    color:rgb(79, 79, 165); 
+  }
+
+  .records{
+    text-decoration: none ;
+    color: rgb(191, 45, 157);
+    font-weight: 600;
+  }
+
+  #button-pause {
+    background: linear-gradient(136.51deg, #c89ce4 0%, #e1b5d4 94.14%);
+    border-radius: 8px;
+  }
+  div {
+    width:445px;
+    margin: auto;
+  }
+  
+  .six {
+    width: 445px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .eight {
+    width: 600px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .ten {
+    width: 800px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  .twelve {
+    width: 890px;
+    margin: auto;
+    align-items: center;
+  }
+  
+  [data-view="card"] {
+    transform: rotateY(180deg);
+    width: 72px;
+    height: 72px;
+    margin: 1px;
+    float: left;
+    cursor: pointer;
+    background-color: #ffffff;
+    border-radius: 5px;
+  }
+  
+  .flipped {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(0deg);
+  }
+  
+  .reverse {
+    transition: 0.2s;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: rotateY(180deg);
+  }
+  
+  .correct {
+    transition: 0.8s;
+    opacity: 0.2;
+    cursor: default;
+    transform-style: preserve-3d;
+    position: relative;
+    transform: translateX(-5000%);
+  }
+  
+  /* Cards */
+  .correct[data-item="1"],
+  .flipped[data-item="1"] {
+    background: url("../images/1.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="2"],
+  .flipped[data-item="2"] {
+    background: url("../images/2.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="3"],
+  .flipped[data-item="3"] {
+    background: url("../images/3.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="4"],
+  .flipped[data-item="4"] {
+    background: url("../images/4.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="5"],
+  .flipped[data-item="5"] {
+    background: url("../images/5.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="6"],
+  .flipped[data-item="6"] {
+    background: url("../images/6.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="7"],
+  .flipped[data-item="7"] {
+    background: url("../images/7.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="8"],
+  .flipped[data-item="8"] {
+    background: url("../images/8.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="9"],
+  .flipped[data-item="9"] {
+    background: url("../images/9.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="10"],
+  .flipped[data-item="10"] {
+    background: url("../images/10.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="11"],
+  .flipped[data-item="11"] {
+    background: url("../images/11.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="12"],
+  .flipped[data-item="12"] {
+    background: url("../images/12.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="13"],
+  .flipped[data-item="13"] {
+    background: url("../images/13.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="14"],
+  .flipped[data-item="14"] {
+    background: url("../images/14.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="15"],
+  .flipped[data-item="15"] {
+    background: url("../images/15.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="16"],
+  .flipped[data-item="16"] {
+    background: url("../images/16.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="17"],
+  .flipped[data-item="17"] {
+    background: url("../images/17.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+  .correct[data-item="18"],
+  .flipped[data-item="18"] {
+    background: url("../images/18.png") left center no-repeat;
+    background-size: contain;
+  }
+  
+ 
+  
