@@ -3,18 +3,63 @@ html {
 } 
 
 body {
-    background: linear-gradient(136.51deg, #9bdee6 0%, #e5bfe9 94.14%);
-    font-size: 1.5em;
-    text-align: center;
-    color: #000000;
+  background: linear-gradient(136.51deg, #9bdee6 0%, #e5bfe9 94.14%);
+  font-size: 1.5em;
+  text-align: center;
+  color: #000000;
+  }
+
+ .title-page {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  }
+
+  .title {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+  }
+
+ .buttons{
+  display: flex;
+  flex-direction: column;
+  gap: 65px;
+  align-items: center;
+}
+
+  button {
+  background: linear-gradient(136.51deg, #c89ce4 0%, #e1b5d4 94.14%);
+  border-radius: 8px;
+  width: 392px;
+  height: 61px;
   }
   
+  button:hover {
+    background: #e1b5d4;
+  }
+  button:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .btns {
+    color: rgb(66, 28, 47);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+
+  }
   h1 {
-font-style: normal;
-font-weight: 200;
-font-size: 36px;
-line-height: 20px;
-color: #64388d;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 40px;
+  line-height: 20px;
+  color: #64388d;
   }
   
   h2 {
@@ -32,12 +77,26 @@ color: #64388d;
   #button-pause {
     background: linear-gradient(136.51deg, #c89ce4 0%, #e1b5d4 94.14%);
     border-radius: 8px;
+    
   }
   div {
     width:445px;
     margin: auto;
   }
   
+  .footer {
+    display: flex;
+    flex-direction: column;
+    gap: 75px;
+  }
+
+  .pause-btn {
+    padding-top: 20px;
+  }
+  .main {
+    display: flex;
+  }
+
   .six {
     width: 445px;
     margin: auto;

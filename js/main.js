@@ -103,31 +103,31 @@ function change_color(obj)
 }
 
 buttonPause.onclick = function() {
-    clearInterval(Interval);
+  clearInterval(Interval);
 }
 
 
 function startTimer () {
-  tens++;
+tens++;
 
-  if(tens < 9){
-    appendTens.innerHTML = "0" + tens;
-  }
+if(tens < 9){
+  appendTens.innerHTML = "0" + tens;
+}
 
-  if (tens > 9){
-    appendTens.innerHTML = tens;
+if (tens > 9){
+  appendTens.innerHTML = tens;
 
-  }
+}
 
-  if (tens > 99) {
-    seconds++;
-    appendSeconds.innerHTML = "0" + seconds;
-    tens = 0;
-    appendTens.innerHTML = "0" + 0;
-  }
+if (tens > 99) {
+  seconds++;
+  appendSeconds.innerHTML = "0" + seconds;
+  tens = 0;
+  appendTens.innerHTML = "0" + 0;
+}
 
-  if (seconds > 9){
-    appendSeconds.innerHTML = seconds;
-  }
+if (seconds > 9){
+  appendSeconds.innerHTML = seconds;
+}
 
 }
