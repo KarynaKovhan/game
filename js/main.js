@@ -46,7 +46,8 @@ for (var i = 0; i < cards.length; i++) {
         counter ++;
         win();
         resultsArray = [];
-      } else {
+      } 
+      else {
         check("reverse");
         resultsArray = [];
       }
