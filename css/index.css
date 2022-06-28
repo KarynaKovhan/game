@@ -87,7 +87,7 @@ body {
   .footer {
     display: flex;
     flex-direction: column;
-    gap: 75px;
+    gap: 20px;
   }
 
   .pause-btn {
@@ -155,7 +155,6 @@ body {
     transform: translateX(-5000%);
   }
   
-  /* Cards */
   .correct[data-item="1"],
   .flipped[data-item="1"] {
     background: url("../images/1.png") left center no-repeat;
